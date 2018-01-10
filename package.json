@@ -1,0 +1,30 @@
+{
+  "name": "funcoin",
+  "version": "1.0.0",
+  "description": "Open source block chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zy445566/Funcoin.git"
+  },
+  "keywords": [
+    "block",
+    "chain",
+    "funcoin",
+    "faas",
+    "serverless",
+    "baas"
+  ],
+  "author": "zy445566",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zy445566/Funcoin/issues"
+  },
+  "homepage": "https://github.com/zy445566/Funcoin#readme",
+  "dependencies": {
+    "bignum": "^0.12.5"
+  }
+}
