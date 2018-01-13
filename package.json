@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/zy445566/Funcoin#readme",
   "dependencies": {
-    "bignum": "^0.12.5"
+    "bignum": "^0.12.5",
+    "level": "^2.1.1"
   }
 }
