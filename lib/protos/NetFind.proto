@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package netfind;
+
+service p2p {
+  rpc ping (void) returns (pong) {}
+}
+
+message void {}
+
+message pong {
+  string msg = 1;
+}

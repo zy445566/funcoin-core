@@ -27,6 +27,7 @@
   "dependencies": {
     "bignum": "^0.12.5",
     "elliptic": "^6.4.0",
+    "grpc": "^1.8.4",
     "level": "^2.1.1"
   }
 }
