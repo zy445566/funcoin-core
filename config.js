@@ -1,5 +1,8 @@
 const path = require("path");
 module.exports = {
+    rpc:{
+        port:52220
+    },
     godBlock:{
         id:"fc1024fc",
         parentId:null,
