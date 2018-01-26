@@ -12,8 +12,10 @@ module.exports = {
             difficulty:1,
             random:Math.floor(Math.random()*16).toString(16),
         },
-        result:null
+        result:null,
+        producerAddress:""
     },
+    awardNum:25,
     outPutBlockTime:10*60*1000,
     dataPath:path.join(__dirname,"data")
 };

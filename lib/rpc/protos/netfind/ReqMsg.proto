@@ -1,0 +1,36 @@
+message head {
+  int32 statusCode = 1;
+  string msg = 2;
+}
+
+message void {}
+
+message netNode {
+    string ip = 1;
+    string port = 2;
+    singular string type = 3;
+}
+
+message nodeList {
+    repeated netNode = 1;
+}
+
+message changeReq {
+  string sendAddress = 1;
+  string accptAddress = 2;
+  double fee = 3;
+  string changeInfo = 4;
+  string sgin = 5;
+  spreadList spreadList = 6; //需要被传播者证明已传播
+}
+
+message spread {
+    string spreadAddress = 1;
+    string accptAddress = 2;
+    string timeTime = 3;
+    string sgin = 4;
+}
+
+message spreadList {
+    repeated spread spread = 1;
+}

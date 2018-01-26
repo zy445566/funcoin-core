@@ -1,0 +1,21 @@
+import "ReqMsg.proto";
+
+message pong {
+  head head = 1;
+}
+
+message blockRes {
+  head head = 1;
+  blockReq blockReq = 2;
+}
+
+message nodeListRes {
+  head head = 1;
+  nodeList nodeList = 2;
+}
+
+message changeRes {
+  head head = 1;
+  bool isAccept =2;
+  changeReq changeReq =3;
+}
